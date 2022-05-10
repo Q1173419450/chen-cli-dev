@@ -1,0 +1,33 @@
+{
+  "name": "chen-cli-dev",
+  "version": "1.0.0",
+  "description": "chen-cli dev",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "core/*",
+    "models/*",
+    "commands/*",
+    "utils/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "bin": {
+    "chen-cli-dev": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q1173419450/chen-cli-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Q1173419450/chen-cli-dev/issues"
+  },
+  "homepage": "https://github.com/Q1173419450/chen-cli-dev#readme"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@chen-cli-dev/cli",
+  "version": "1.0.0",
+  "description": "chen-cli-dev core",
+  "author": "Q1173419450 <1173419450@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "bin": {
+    "chen-cli-dev": "bin/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@chen-cli-dev/exec": "file:../exec",
+    "@chen-cli-dev/log": "file:../../utils/log"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "dotenv": "^10.0.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^2.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  }
+}
